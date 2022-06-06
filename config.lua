@@ -33,7 +33,7 @@ Config.AlertShowInfo = 2 -- How many injuries a player must have before being al
 
 Config.Locations = { -- Edit the various interaction points for players or create new ones
     ["checking"] = {
-	    [1] = vector3(308.19, -595.35, 43.29),
+	    [1] = vector3(294.15, -1448.92, 29.97),
 	    [2] = vector3(-254.54, 6331.78, 32.43), -- paleto
     },
     ["duty"] = {
