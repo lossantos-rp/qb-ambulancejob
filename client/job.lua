@@ -352,7 +352,7 @@ local function EMSHelicopter(k)
                             SetVehicleNumberPlateText(veh, Lang:t('info.heli_plate')..tostring(math.random(1000, 9999)))
                             SetEntityHeading(veh, coords.w)
                             SetVehicleLivery(veh, 1) -- Ambulance Livery
-                            exports['cc-fuel']:SetFuel(veh, 100.0)
+                            exports['ps-fuel']:SetFuel(veh, 100.0)
                             TaskWarpPedIntoVehicle(PlayerPedId(), veh, -1)
                             TriggerEvent("vehiclekeys:client:SetOwner", QBCore.Functions.GetPlate(veh))
                             SetVehicleEngineOn(veh, true, true)
